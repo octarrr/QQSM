@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "QQSM";
+}
+
+<div class="text-center">
+    <h1 class="display-4">QUIEN QUIERE SER MILLONARIO</h1>
+    <form action='@Url.Action("InicioJuego","Home")'method="POST"enctype="multipart/form-data">
+        <div class="form-group">
+            <label>Nombre <input type="text"name="n"class="form-control"></label>
+        </div>
+        <input type="submit"class="btn btn-success"value="Jugar">
+    </form>
+</div>
